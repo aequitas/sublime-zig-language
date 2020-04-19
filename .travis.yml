@@ -7,6 +7,7 @@ addons:
         - coreutils # gtimeout
     casks:
       - textmate
+    # workaround for issue: https://travis-ci.community/t/macos-build-fails-because-of-homebrew-bundle-unknown-command/7296/10
     update: true
 
 script: |
